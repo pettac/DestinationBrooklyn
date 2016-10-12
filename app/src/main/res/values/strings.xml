@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">Destination BK</string>
+    <string name="title_activity_main">Destination Brooklyn</string>
+    <string name="title_activity_shop">Local Shops and Crafts</string>
+    <string name="title_activity_categories">Categories Activity</string>
+    <string name="permission_rationale_location">Access to the location service is required to demonstrate the \'my location\' feature, which shows your current location on the map.</string>
+    <string name="location_permission_denied">This sample requires location permission to enable the \'my location\' layer. Please try again and grant access to use the location.\nIf the permission has been permanently denied, it can be enabled from the System Settings &gt; Apps &gt; \'Google Maps API Demos\'.</string>
+    <string name="permission_required_toast">Location permission is required for this demo.</string>
+    <string name="cat1">Time Period</string>
+    <string name="cat2">Building Type</string>
+    <string name="cat3">Extra</string>
+
+    <string-array name="TimePeriods_array">
+        <item>Time Period</item>
+        <item>1860</item>
+        <item>1890</item>
+        <item>1940</item>
+        <item>1950</item>
+        <item>1960</item>
+        <item>1970</item>
+        <item>1980</item>
+        <item>1990</item>
+        <item>2000</item>
+        <item>2010</item>
+
+    </string-array>
+    <string-array name="buildingType_array">
+        <item>Building Type</item>
+        <item>Architecture</item>
+        <item>Street Art</item>
+        <item>Museum</item>
+        <item>Memorial</item>
+    </string-array>
+    <string name="title_activity_shop_detail">shopDetailActivity</string>
+</resources>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Style for the list-->
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/list_row_selector">
+
+        <!-- Background Image -->
+        <LinearLayout
+            android:id="@+id/bkgImage"
+            android:layout_width="wrap_content"
+            android:layout_height="205dp"
+            android:orientation="vertical"
+            android:background="@drawable/bridgecoffee"
+            android:alpha="0.75"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="bottom|start"
+            android:layout_alignParentBottom="true"
+            android:paddingLeft="10dp">
+
+            <!-- Shop Title -->
+            <TextView
+                android:id="@+id/title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/title"
+                android:textStyle="bold"
+                android:textColor="@color/genre"
+                android:alpha="1.0"/>
+
+            <!-- Description -->
+            <TextView
+                android:id="@+id/description"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/title"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="10dp"
+                android:textColor="@color/genre"
+                android:textSize="@dimen/genre" />
+        </LinearLayout>
+</RelativeLayout>
